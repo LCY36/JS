@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.header{
+    text-align: center;
+    margin: 50px 0;
+}
+
+.weekday, .day{
+font-size: 14px;
+margin-bottom: 5px;
+margin-left: 3px;
+text-align: center;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.weekday_container, .day_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.months{
+    padding: 10px;
+    text-align: center;
+}
